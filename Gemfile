@@ -5,7 +5,25 @@ gem 'rails', '3.0.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'formtastic', '~> 1.2.3'
+gem 'mongo_mapper'
+# gem 'jnunemaker-validatable', '>= 1.8.4'
+gem 'mongomapper_ext'
+# gem 'webrat'
+# gem 'cucumber-rails'
+# gem 'rspec', '>=2.6.0.rc4'
+gem 'haml'
+gem 'haml-rails'
+gem 'mongrel', '>= 1.2.0.pre2'
+# gem 'haml_scaffold'
+gem 'bson_ext'
+gem 'will_paginate'
+gem 'mocha'
+gem 'rails3-generators'
+gem 'jquery-rails', '>=0.2.5'
+
+
+# gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
